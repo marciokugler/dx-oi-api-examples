@@ -2,7 +2,7 @@ import requests
 import json
 import time
 
-token = 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJleHAiOjkyMjMzNzIwMzY4NTQ3NzUsImludCI6dHJ1ZSwidGlkIjo1MTgsImp0aSI6ImIxMDc5Y2I3LWZjNmMtNGFhOC1iZTI4LTkyZjUwZWMyYWYxOCJ9.Jvo53Apcr7pZRJFqmlXAIZC1pLHzdb2GfFZDDmMeOjr4x7hDca6bSy9KgrSm1DobDfHzjH_WBu97K0rtrA3VZw'
+token = 'Bearer '
 
 epoch_time = int(time.time())
 print (epoch_time)
