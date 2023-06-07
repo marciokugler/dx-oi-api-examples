@@ -1,0 +1,29 @@
+{ 
+   "filter":{ 
+      "op":"TRAVERSE",
+      "input":{ 
+         "op":"AND",
+         "input":[ 
+            { 
+               "op":"ATTRIBUTE",
+               "expressions":[ 
+                  { 
+                     "name":"hostname",
+                     "values":[ 
+                        "node2"
+                     ]
+                  },
+                  {
+                     "name":"type",
+                     "values":[ 
+                        "AGENT"
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   "stitchingEnabled":true,
+   "includeStatus":false
+}

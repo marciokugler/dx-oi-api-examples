@@ -1,0 +1,14 @@
+{
+    "specifier": {
+    "op": "SPEC",
+    "sourceNameSpecifier": {
+    "op": "REGEX",
+    "pattern": ".*node2.*"
+    },
+    "attributeNameSpecifier": {
+    "op": "ALL"
+    }
+    }
+   }
+
+   
